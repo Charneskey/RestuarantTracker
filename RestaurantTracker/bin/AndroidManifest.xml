@@ -37,8 +37,8 @@
         <activity
             android:name=".Restaurant_Tracker"
             android:label="@string/title_activity_restaurant__tracker" 
-            android:configChanges="keyboardHidden|orientation" >
-            <intent-filter>
+            android:configChanges="orientation|screenSize|keyboardHidden">
+             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
